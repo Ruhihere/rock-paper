@@ -62,7 +62,10 @@
   }
   
   .msg-container {
-    margin-top: 5rem;
+    margin-top: 5rem;.msg-container {
+      margin-top: 5rem;
+      padding: 0 1rem; /* Add padding for small screens */
+    }
   }
   
   #msg {
@@ -103,9 +106,13 @@
   #comp-score {
     font-size: 3rem;
   }
-
+  .msg-container {
+    margin-top: 3rem; /* Reduce top margin */
+    padding: 0 2rem; /* Add padding for better spacing */
+  }
   #msg {
-    font-size: 1.5rem;
-    padding: 0.75rem;
+    font-size: 1.2rem; /* Increase font size slightly */
+    padding: 1rem 1.5rem; /* Adjust padding */
+    word-wrap: break-word; /* Ensure text wraps correctly */
   }
 }
